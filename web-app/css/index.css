@@ -1,0 +1,1061 @@
+[hidden] {
+    display: none
+}
+
+html {
+    file-size: 100%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin-top: 57px;
+    file-size: 1em;
+    line-height: 1.4
+}
+
+body, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222
+}
+
+::-moz-selection {
+    background: #fe57a1;
+    color: #fff;
+    text-shadow: none
+}
+
+::selection {
+    background: #fe57a1;
+    color: #fff;
+    text-shadow: none
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b, strong {
+    file-weight: 700
+}
+
+blockquote {
+    margin: 1em 40px
+}
+
+dfn {
+    file-style: italic
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+ins {
+    background: #ff9;
+    color: #000;
+    text-decoration: none
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+    file-style: italic;
+    file-weight: 700
+}
+
+pre, code, kbd, samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    file-size: 1em
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+
+q {
+    quotes: none
+}
+
+q:before, q:after {
+    content: "";
+    content: none
+}
+
+small {
+    file-size: 85%
+}
+
+sub, sup {
+    file-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+ul, ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px
+}
+
+dd {
+    margin: 0 0 0 40px
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 0
+}
+
+form {
+    margin: 0
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+label {
+    cursor: pointer
+}
+
+
+
+.hidden {
+    display: none !important;
+    visibility: hidden
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1030;
+    display: block;
+    visibility: visible;
+    padding: 5px;
+    file-size: 11px;
+    filter: alpha(Opacity = 0);
+    opacity: 0
+}
+
+.tooltip.in {
+    filter: alpha(Opacity = 80);
+    opacity: .8
+}
+
+.tooltip.top {
+    margin-top: -3px
+}
+
+.tooltip.right {
+    margin-left: 3px
+}
+
+.tooltip.bottom {
+    margin-top: 3px
+}
+
+.tooltip.left {
+    margin-left: -3px
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid
+}
+
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000
+}
+
+.tooltip.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #000
+}
+
+.tooltip.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -moz-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear
+}
+
+.fade.in {
+    opacity: 1
+}
+
+body {
+    background: #f7f7f7;
+    color: #333;
+    font: 15px/1.5 droid-sans, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+/*a {*/
+    /*color: #30b8b8;*/
+    /*text-decoration: none*/
+/*}*/
+
+/*a:hover {*/
+    /*text-decoration: underline*/
+/*}*/
+
+/*a:visited {*/
+    /*color: #259090*/
+/*}*/
+
+.wrapper {
+    margin: 0 auto;
+    width: 970px
+}
+
+#header {
+    border-bottom: 2px solid #45a4ff;
+    padding: 15px 0;
+    position: sticky;
+    width: 100%;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #f7f7f7), color-stop(100%, #ebebeb));
+    background-image: -webkit-linear-gradient(#f7f7f7, #ebebeb);
+    background-image: -moz-linear-gradient(#f7f7f7, #ebebeb);
+    background-image: -o-linear-gradient(#f7f7f7, #ebebeb);
+    background-image: linear-gradient(#f7f7f7, #ebebeb);
+    -webkit-box-shadow: rgba(0, 0, 0, .15) 0 1px 4px, inset rgba(255, 255, 255, .5) 0 -2px 0;
+    -moz-box-shadow: rgba(0, 0, 0, .15) 0 1px 4px, inset rgba(255, 255, 255, .5) 0 -2px 0;
+    box-shadow: rgba(0, 0, 0, .15) 0 1px 4px, inset rgba(255, 255, 255, .5) 0 -2px 0
+}
+
+#header .social {
+    float: right
+}
+
+.headline {
+    color: #333;
+    file-size: 15px;
+    margin: 0 auto
+}
+
+.headline a {
+    color: #333;
+    text-decoration: none
+}
+
+.headline em {
+    color: #b60202;
+    file-style: normal
+}
+
+select, input:not([type="submit"]), input:not([type="image"]), .select2-choices {
+    /*border: 1px solid #e6e6e6;*/
+    padding: .6em .8em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-box-shadow: rgba(255, 255, 255, .8) 1px 1px 0;
+    -moz-box-shadow: rgba(255, 255, 255, .8) 1px 1px 0;
+    box-shadow: rgba(255, 255, 255, .8) 1px 1px 0
+}
+
+select:hover, input:not([type="submit"]):hover, input:not([type="image"]):hover, .select2-choices:hover {
+    border-color: #30b8b8
+}
+
+select:focus, input:not([type="submit"]):focus, input:not([type="image"]):focus, .select2-choices:focus {
+    border-color: #2ba4a4;
+    outline: 0
+}
+
+
+#file-list {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.file-list-item {
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    transition: all .15s ease;
+    padding: 5px 5px 10px 5px;
+}
+
+.file-list-item+.file-list-item {
+    margin-top: 10px;
+}
+
+.file-list-item.loading {
+    border-color: #d8b80e
+}
+
+.file-list-item.loading .file-preview {
+    filter: alpha(Opacity = 0);
+    opacity: 0
+}
+
+.file-list-item:hover {
+    background-color: #fafafa;
+    border-color: #fff;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .15);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .15)
+}
+
+.file-list-item:hover .file-toolbar {
+    filter: alpha(Opacity = 100);
+    opacity: 1
+}
+
+.file-preview {
+    border-bottom: 1px solid transparent;
+    color: #333;
+    cursor: text;
+    file-size: 30px;
+    padding: 15px 15px 7px;
+    -webkit-transition: border-color .15s ease, opacity .4s ease-in;
+    -moz-transition: border-color .15s ease, opacity .4s ease-in;
+    -o-transition: border-color .15s ease, opacity .4s ease-in;
+    transition: border-color .15s ease, opacity .4s ease-in
+}
+
+.file-preview:hover {
+    border-color: #feb9b9
+}
+
+.file-preview:focus {
+    outline: 1px dashed #b60202
+}
+
+.file-toolbar {
+    border-top: 1px solid #f2f2f2;
+    color: #999;
+    filter: alpha(Opacity = 50);
+    opacity: .5
+}
+
+.file-toolbar .toolbar-item {
+    padding: 6px 9px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline
+}
+
+.file-toolbar .toolbar-item:first-child {
+    padding-left: 15px
+}
+
+.file-toolbar .toolbar-item+.toolbar-item {
+    border-left: 1px solid #f2f2f2
+}
+
+.file-toolbar .btn {
+    background: #f0f0f0;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    file-size: 12px;
+    line-height: 1;
+    padding: 4px 6px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    transition: all .15s ease
+}
+
+.file-toolbar .btn:hover {
+    color: gray
+}
+
+.file-toolbar .btn.active {
+    background: 0;
+    border-color: transparent;
+    color: #30b8b8;
+    cursor: default
+}
+
+.file-name {
+    color: #b60202;
+    cursor: default
+}
+
+.file-url {
+    file-size: 12px
+}
+
+.favorite {
+    color: #d8b80e;
+    cursor: pointer
+}
+
+.navigation {
+    margin: 20px 0
+}
+
+#nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+#nav li {
+    line-height: 1;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline
+}
+
+#nav li+li {
+    margin-left: 4px
+}
+
+#nav li a {
+    color: #30b8b8;
+    cursor: pointer;
+    padding: 2px 4px;
+    text-decoration: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px
+}
+
+#nav li a:hover, #nav li a.active {
+    background: #ebebeb;
+    color: #4d4d4d
+}
+
+#footer {
+    file-size: 80%;
+    margin-top: 25px;
+    padding: 15px 0;
+    text-align: center
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1030;
+    display: block;
+    visibility: visible;
+    padding: 5px;
+    file-size: 11px;
+    filter: alpha(Opacity = 0);
+    opacity: 0
+}
+
+.tooltip.in {
+    filter: alpha(Opacity = 80);
+    opacity: .8
+}
+
+.tooltip.top {
+    margin-top: -3px
+}
+
+.tooltip.right {
+    margin-left: 3px
+}
+
+.tooltip.bottom {
+    margin-top: 3px
+}
+
+.tooltip.left {
+    margin-left: -3px
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid
+}
+
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000
+}
+
+.tooltip.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #000
+}
+
+.tooltip.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -moz-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear
+}
+
+.fade.in {
+    opacity: 1
+}
+
+/*!
+ * Theme	:	Plugin - Documentation Theme v1.0.0
+ * Author	:	Rajendra Prasad
+ * Twitter	:	madebyraj
+ *
+ * Copyright 2012 DoozyPixels
+ * http://www.doozypixels.com
+ *
+ * Designed for designers and developers
+ */
+
+
+/* Replace Bootstrap Icons Background Css With Font-Awesome Icons */
+
+[class^="icon-"],
+[class*=" icon-"],
+.icon-white{
+    background-image: none;
+}
+/* Theme General Css */
+body{
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+}
+.container{
+    min-height: 40px;
+}
+.align-center{
+    text-align: center;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+
+}
+hr.soften {
+    height: 1px;
+    margin: 34px 0;
+    background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+    background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+    background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+    background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+    border: 0;
+}
+
+/* Google WebFonts */
+.font-bree-serif{
+    font-family: 'Bree Serif', serif;
+    font-weight:400;
+}
+.font-open-sans-book,
+.font-open-sans-book-italic,
+.font-open-sans-normal,
+.font-open-sans-normal-italic,
+.font-open-sans-semi-bold,
+.font-open-sans-semi-bold-italic,
+.font-open-sans-bold,
+.font-open-sans-bold-italic{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.font-open-sans-normal,
+.font-open-sans-normal-italic{
+    font-weight: 400;
+}
+.font-open-sans-semi-bold,
+.font-open-sans-semi-bold-italic{
+    font-weight: 600;
+}
+.font-open-sans-bold,
+.font-open-sans-bold-italic{
+    font-weight: 700;
+}
+.font-open-sans-book-italic,
+.font-open-sans-normal-italic,
+.font-open-sans-semi-bold-italic,
+.font-open-sans-bold-italic{
+    font-style: italic;
+}
+/*header{*/
+    /*width:100%;*/
+    /*background: #f2f2f2;*/
+    /*padding-bottom: 20px;*/
+    /*margin-bottom: 30px;*/
+    /*box-shadow: 0px 1px 10px #ccc;*/
+
+/*}*/
+.masthead{ text-align:center;}
+#brand{
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    background-position:center;
+    width: 753px;
+    height: 408px;
+    text-indent: -9999px;
+    margin: 30px auto;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+
+}
+.masthead h1{
+    font-size: 36px;
+    margin: 0 0 20px
+}
+.masthead p{
+    font-size: 16px;
+}
+.jumbo{
+    margin: 30px 0;
+}
+.jumbo .btn-large{
+    padding: 20px 30px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.jumbo a small{
+    color: #fff;
+}
+
+.tab-content{
+    min-height: 300px;
+}
+.tab-content h4{
+    margin-top:10px;
+}
+.features{
+    margin-top: 40px;
+}
+.tab-content .feature-icon {
+    float: left;
+    margin: 7px 10px 0 0;
+    font-size: 20px;
+}
+
+.thumbnails{
+    margin-top: 20px;
+}
+.sec-header{
+    margin-bottom: 20px;
+}
+.sec-header h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: dotted 1px #ddd;
+}
+.sec-header h4{
+    margin: 10px 0;
+    padding: 5px;
+    background: #ddd;
+}
+.sec-header h5{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: dotted 1px #ddd;
+}
+
+.settings thead th{
+    background: #ddd;}
+.settings tbody tr td:first-child{
+    color: #060;}
+
+.accordion-heading .accordion-toggle:hover{
+    background: #ddd;
+}
+footer{
+    width: 100%;
+    background: #333;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+footer p{
+    font-size:11px;
+    color: #fff;
+
+}
+
+@media only screen and (max-width: 992px) and (orientation:landscape) {
+    #brand{
+        background: url(../img/logo.png) 50% 0 no-repeat scroll !important;
+        background-position: center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+    body {
+        margin-top: 0px;
+    }
+
+    #brand{
+        background: url(../img/logo.png) 50% 50% 0 no-repeat scroll !important;
+        background-position:center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+    }
+    /*.masthead p{*/
+        /*padding: 0 10px;*/
+    /*}*/
+    /*.jumbo .btn-large{*/
+        /*margin-right: 0px;*/
+        /*margin-bottom: 10px;*/
+    /*}*/
+    /*.nav-tabs{*/
+        /*border-bottom: 0;*/
+    /*}*/
+
+    /*.nav-tabs li{*/
+        /*display: block;*/
+        /*float: none;*/
+    /*}*/
+    /*.nav-tabs > .active > a, .nav-tabs > .active > a:hover {*/
+        /*color: #fff;*/
+        /*cursor: default;*/
+        /*background-color: #0088cc;*/
+        /*border: 0;*/
+        /*border-radius: 5px;*/
+
+    /*}*/
+    /*footer p{*/
+        /*text-align:center;*/
+    /*}*/
+}
+
+.navbar ul.topnav {
+    float: right;
+}
+
+.thumbnails > li {
+    margin-left: 15px;
+}
+
+
+.navbar .brand {
+
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+.btn-success {
+    color: #ffffff !important;
+}
+
+.fileinput-button input {
+    cursor: pointer;
+    direction: ltr;
+    font-size: 23px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-900px, 40px) scale(1);
+}
+
+select, input[type="file"] {
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.fileupload-loading {
+    background: url("../images/spinner.gif") no-repeat scroll center center transparent;
+    display: none;
+    height: 128px;
+    left: 50%;
+    position: absolute;
+    width: 128px;
+}
+
+/*
+ * jQuery File Upload UI Plugin CSS 6.3.1
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2010, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: 4px;
+}
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    border: solid transparent;
+    border-width: 0 0 100px 200px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-transform: translate(-300px, 0) scale(4);
+    direction: ltr;
+    cursor: pointer;
+}
+.fileupload-buttonbar .btn,
+.fileupload-buttonbar .toggle {
+    margin-bottom: 5px;
+}
+.files .progress {
+    width: 200px;
+}
+
+.fileupload-loading {
+    position: absolute;
+    left: 50%;
+    width: 128px;
+    height: 128px;
+    background: url(../images/loading.gif) center no-repeat;
+    display: none;
+}
+.fileupload-processing .fileupload-loading {
+    display: block;
+}
+
+/* Fix for IE 6: */
+* html .fileinput-button {
+    line-height: 24px;
+    margin: 1px -3px 0 0;
+}
+
+/* Fix for IE 7: */
+* + html .fileinput-button {
+    line-height: 22px;
+    margin: 1px 0 0 0;
+}
+
+@media (max-width: 767px) {
+    .files .btn span {
+        display: none;
+    }
+    .files .preview * {
+        width: 40px;
+    }
+    .files .name * {
+        width: 80px;
+        display: inline-block;
+        word-wrap: break-word;
+    }
+    .files .progress {
+        width: 20px;
+    }
+    .files .delete {
+        width: 60px;
+    }
+}
+
+
+.progress .bar {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.table {
+    margin-bottom: 10px;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+    color: #ffffff;
+    background-color: #2f96b4;
+    *background-color: #2a85a0;
+}
+
+.btn-info:active,
+.btn-info.active {
+    background-color: #24748c \9;
+}

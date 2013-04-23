@@ -1,0 +1,39 @@
+<div class="font-toolbar row-fluid">
+    <span class="span12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Sport</th>
+                    <th>Laps</th>
+                    <th>Time (h:m:s)</th>
+                    <th>Distance (Miles)</th>
+                    <th>Calories</th>
+                    <th>Intensity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><%= name %></td>
+                    <td><%= sport %></td>
+                    <td><%= lapCount %></td>
+                    <td><%= secondsToTime(Math.round(totalTimeSeconds*100)/100) %>&nbsp;<i data-content="<%=Math.round(totalTimeSeconds*100)/100%> Seconds<br><%=secondsToTime(Math.round(totalTimeSeconds*100)/100)%> hh:mm:ss" title="" rel="popover" data-html="true" data-toggle="popover" href="#" data-original-title="Time" class="icon-question-sign"></i></td>
+                    <td><%= Math.round((distanceMeters * 0.0621371))/100 %>&nbsp;<i data-content="<%=Math.round(distanceMeters*100)/100%> Meters<br><%=Math.round((distanceMeters/1000)*100)/100%> Km<br><%=Math.round((distanceMeters * 0.0621371))/100%> Miles" title="" rel="popover" data-html="true" data-toggle="popover" href="#" data-original-title="Distance" class="icon-question-sign"></i></td>
+                    <td><%= calories %></td>
+                    <td><%= intensity %></td>
+                </tr>
+            </tbody>
+        </table>
+    </span>
+ </div>
+ <div class="font-toolbar row-fluid">
+    <div class="span12" style="text-align: right;">
+            <span class="btn-group">
+            <button class="btn btn-info splitByTime"><i class="icon-download"></i>&nbsp;Split By Timespan</button>&nbsp;
+            <% if(lapCount > 1){ %>
+            <button class="btn btn-info splitByLap"><i class="icon-download"></i>&nbsp;Split By Lap</button>&nbsp;
+            <% } %>
+        </span>
+        <button class="delete-file btn btn-danger"><i class="icon-remove"></i>&nbsp;Delete</button>
+    </div>
+</div>

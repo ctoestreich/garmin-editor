@@ -1,1 +1,5 @@
-This file was created by IntelliJ IDEA 11.1.5 for binding GitHub repository
+Garmin File Manager
+--------------------------
+
+An application using Grails, Backbone, Marionette and MongoDB to help manage and split garmin files by laps and time gaps for those of us who accidentally forget to stop our timers.  I used to do
+this by hand, but thought making an application to help would be a much simpler solution.

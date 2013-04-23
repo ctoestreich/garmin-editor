@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+        xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd"
+        xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+        xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+        xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+        xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1">
+    <Activities>
+        <Activity Sport="Biking">
+            <Id>2012-09-27T21:56:22.000Z</Id>
+            <Lap StartTime="2012-09-27T21:56:22.000Z">
+                <TotalTimeSeconds>8339.877</TotalTimeSeconds>
+                <DistanceMeters>68199.67</DistanceMeters>
+                <MaximumSpeed>18.665000915527344</MaximumSpeed>
+                <Calories>3095</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+                <Track>
+                    <Trackpoint>
+                        <Time>2012-09-27T21:56:22.000Z</Time>
+                        <Position>
+                            <LatitudeDegrees>45.0020064599812</LatitudeDegrees>
+                            <LongitudeDegrees>-93.49163968116045</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>295.0</AltitudeMeters>
+                        <DistanceMeters>8.930000305175781</DistanceMeters>
+                        <Extensions>
+                            <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                                <Speed>9.038000106811523</Speed>
+                            </TPX>
+                        </Extensions>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <Time>2012-09-27T21:56:27.000Z</Time>
+                        <Position>
+                            <LatitudeDegrees>45.00239278189838</LatitudeDegrees>
+                            <LongitudeDegrees>-93.49164445884526</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>297.3999938964844</AltitudeMeters>
+                        <DistanceMeters>51.880001068115234</DistanceMeters>
+                        <Extensions>
+                            <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                                <Speed>8.312000274658203</Speed>
+                            </TPX>
+                        </Extensions>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <Time>2012-09-27T21:56:28.000Z</Time>
+                        <Position>
+                            <LatitudeDegrees>45.002470314502716</LatitudeDegrees>
+                            <LongitudeDegrees>-93.49164789542556</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>297.6000061035156</AltitudeMeters>
+                        <DistanceMeters>60.5</DistanceMeters>
+                        <Extensions>
+                            <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                                <Speed>8.621000289916992</Speed>
+                            </TPX>
+                        </Extensions>
+                    </Trackpoint>
+                </Track>
+                <Extensions>
+                    <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                        <AvgSpeed>8.178000450134277</AvgSpeed>
+                    </LX>
+                </Extensions>
+            </Lap>
+            <Creator xsi:type="Device_t">
+                <Name>Garmin Edge 500</Name>
+                <UnitId>3847170544</UnitId>
+                <ProductID>1036</ProductID>
+                <Version>
+                    <VersionMajor>3</VersionMajor>
+                    <VersionMinor>0</VersionMinor>
+                    <BuildMajor>0</BuildMajor>
+                    <BuildMinor>0</BuildMinor>
+                </Version>
+            </Creator>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Garmin Connect API</Name>
+        <Build>
+            <Version>
+                <VersionMajor>13</VersionMajor>
+                <VersionMinor>3</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>006-D2449-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>

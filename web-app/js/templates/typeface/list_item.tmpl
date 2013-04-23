@@ -1,0 +1,15 @@
+<div class="font-preview" data-placement="left" data-delay="250" contenteditable="true" title="Edit Text" data-font-size="<%= font_size %>"><%= preview_text %></div>
+<div class="font-toolbar">
+	<span class="toolbar-item favorite" data-placement="left" title="<%= favorite ? 'Favorited' : 'Favorite This' %>"><%= favorite ? '&#9733;' : '&#9734;' %></span>
+	<span class="toolbar-item font-name"><%= name %></span>
+	<span class="toolbar-item font-variants">
+	<% _.each( variants, function( name, key ){ %>
+		<span
+			title="<%= key === activeVariant ? 'Currently Viewing' : 'Set Style' %>"
+			class="btn<%= key === activeVariant ? ' active' : '' %>"
+			data-id="<%= key %>"
+		><%= name %></span>
+	<% }) %>
+	</span>
+	<span class="toolbar-item font-url">URL: <%= url %></span>
+</div>
